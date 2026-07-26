@@ -1,5 +1,7 @@
 package de.lhind.internship.mini.project.common.Hotel;
 
+import de.lhind.internship.mini.project.common.DTOs.requests.HotelRequestDTO;
+import de.lhind.internship.mini.project.common.DTOs.responses.HotelResponseDTO;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

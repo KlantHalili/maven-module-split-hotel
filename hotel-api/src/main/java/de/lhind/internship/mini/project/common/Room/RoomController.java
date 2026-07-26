@@ -1,5 +1,8 @@
 package de.lhind.internship.mini.project.common.Room;
 
+import de.lhind.internship.mini.project.common.DTOs.requests.RoomRequestDTO;
+import de.lhind.internship.mini.project.common.DTOs.responses.RoomResponseDTO;
+import de.lhind.internship.mini.project.common.enums.RoomStatus;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

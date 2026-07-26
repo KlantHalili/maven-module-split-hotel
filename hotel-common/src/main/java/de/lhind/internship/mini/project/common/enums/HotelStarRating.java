@@ -1,4 +1,4 @@
-package de.lhind.internship.mini.project.common.Hotel;
+package de.lhind.internship.mini.project.common.enums;
 
 public enum HotelStarRating {
     POOR,

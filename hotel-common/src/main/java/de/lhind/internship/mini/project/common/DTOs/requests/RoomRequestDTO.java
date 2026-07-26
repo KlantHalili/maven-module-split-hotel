@@ -1,5 +1,7 @@
 package de.lhind.internship.mini.project.common.DTOs.requests;
 
+import de.lhind.internship.mini.project.common.enums.RoomStatus;
+import de.lhind.internship.mini.project.common.enums.RoomType;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

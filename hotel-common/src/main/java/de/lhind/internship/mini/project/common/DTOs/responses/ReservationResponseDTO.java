@@ -1,5 +1,6 @@
 package de.lhind.internship.mini.project.common.DTOs.responses;
 
+import de.lhind.internship.mini.project.common.enums.ReservationStatus;
 import lombok.*;
 
 import java.math.BigDecimal;

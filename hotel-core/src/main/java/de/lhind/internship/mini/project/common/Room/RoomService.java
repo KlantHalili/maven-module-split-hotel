@@ -1,12 +1,15 @@
 package de.lhind.internship.mini.project.common.Room;
 
+import de.lhind.internship.mini.project.common.DTOs.requests.RoomRequestDTO;
+import de.lhind.internship.mini.project.common.DTOs.responses.RoomResponseDTO;
 import de.lhind.internship.mini.project.common.Hotel.Hotel;
 import de.lhind.internship.mini.project.common.Hotel.HotelRepo;
 import de.lhind.internship.mini.project.common.Reservation.ReservationRepo;
-import de.lhind.internship.mini.project.exception.HotelNotFoundException;
-import de.lhind.internship.mini.project.exception.RoomExistsException;
-import de.lhind.internship.mini.project.exception.RoomHasReservationsException;
-import de.lhind.internship.mini.project.exception.RoomNotFoundException;
+import de.lhind.internship.mini.project.common.enums.RoomStatus;
+import de.lhind.internship.mini.project.common.exceptions.HotelNotFoundException;
+import de.lhind.internship.mini.project.common.exceptions.RoomExistsException;
+import de.lhind.internship.mini.project.common.exceptions.RoomHasReservationsException;
+import de.lhind.internship.mini.project.common.exceptions.RoomNotFoundException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

@@ -11,8 +11,6 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-
-    <groupId>de.lhind.internship.mini.project.core</groupId>
     <version>0.0.1-SNAPSHOT</version>
     <artifactId>hotel-core</artifactId>
 
@@ -24,6 +22,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
+        <dependency>
+            <groupId>de.lhind.internship</groupId>
+            <artifactId>hotel-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

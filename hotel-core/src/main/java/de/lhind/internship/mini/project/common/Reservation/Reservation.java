@@ -2,6 +2,7 @@ package de.lhind.internship.mini.project.common.Reservation;
 
 import de.lhind.internship.mini.project.common.Guest.Guest;
 import de.lhind.internship.mini.project.common.Room.Room;
+import de.lhind.internship.mini.project.common.enums.ReservationStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

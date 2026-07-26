@@ -10,7 +10,13 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>de.lhind.internship.mini.project.common</groupId>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+    </dependencies>
+
     <version>0.0.1-SNAPSHOT</version>
     <artifactId>hotel-common</artifactId>
 

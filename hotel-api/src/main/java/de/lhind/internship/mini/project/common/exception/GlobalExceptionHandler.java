@@ -1,5 +1,6 @@
 package de.lhind.internship.mini.project.common.exception;
 
+import de.lhind.internship.mini.project.common.exceptions.*;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

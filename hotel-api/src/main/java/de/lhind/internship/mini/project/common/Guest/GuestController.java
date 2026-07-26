@@ -1,5 +1,7 @@
 package de.lhind.internship.mini.project.common.Guest;
 
+import de.lhind.internship.mini.project.common.DTOs.requests.GuestRequestDTO;
+import de.lhind.internship.mini.project.common.DTOs.responses.GuestResponseDTO;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

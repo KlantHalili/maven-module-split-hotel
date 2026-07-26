@@ -1,5 +1,7 @@
 package de.lhind.internship.mini.project.common.GuestProfile;
 
+import de.lhind.internship.mini.project.common.DTOs.requests.GuestProfileRequestDTO;
+import de.lhind.internship.mini.project.common.DTOs.responses.GuestProfileResponseDTO;
 import de.lhind.internship.mini.project.common.Guest.Guest;
 import de.lhind.internship.mini.project.common.Guest.GuestRepo;
 import de.lhind.internship.mini.project.common.exceptions.GuestHasProfileException;

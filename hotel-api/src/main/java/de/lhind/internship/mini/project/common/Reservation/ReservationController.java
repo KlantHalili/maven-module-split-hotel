@@ -1,5 +1,8 @@
 package de.lhind.internship.mini.project.common.Reservation;
 
+import de.lhind.internship.mini.project.common.DTOs.requests.ReservationRequestDTO;
+import de.lhind.internship.mini.project.common.DTOs.responses.ReservationResponseDTO;
+import de.lhind.internship.mini.project.common.enums.ReservationStatus;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

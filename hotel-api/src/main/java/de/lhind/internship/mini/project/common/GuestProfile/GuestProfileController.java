@@ -1,5 +1,7 @@
 package de.lhind.internship.mini.project.common.GuestProfile;
 
+import de.lhind.internship.mini.project.common.DTOs.requests.GuestProfileRequestDTO;
+import de.lhind.internship.mini.project.common.DTOs.responses.GuestProfileResponseDTO;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

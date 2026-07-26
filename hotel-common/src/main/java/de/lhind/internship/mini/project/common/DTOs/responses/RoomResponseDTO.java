@@ -1,5 +1,7 @@
 package de.lhind.internship.mini.project.common.DTOs.responses;
 
+import de.lhind.internship.mini.project.common.enums.RoomStatus;
+import de.lhind.internship.mini.project.common.enums.RoomType;
 import lombok.*;
 
 import java.math.BigDecimal;

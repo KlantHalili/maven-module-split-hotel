@@ -1,10 +1,14 @@
 package de.lhind.internship.mini.project.common.Reservation;
 
+import de.lhind.internship.mini.project.common.DTOs.requests.ReservationRequestDTO;
+import de.lhind.internship.mini.project.common.DTOs.responses.ReservationResponseDTO;
 import de.lhind.internship.mini.project.common.Guest.Guest;
 import de.lhind.internship.mini.project.common.Guest.GuestRepo;
 import de.lhind.internship.mini.project.common.Room.Room;
 import de.lhind.internship.mini.project.common.Room.RoomRepo;
-import de.lhind.internship.mini.project.common.Room.RoomStatus;
+import de.lhind.internship.mini.project.common.enums.ReservationStatus;
+import de.lhind.internship.mini.project.common.enums.RoomStatus;
+import de.lhind.internship.mini.project.common.exceptions.*;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

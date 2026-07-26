@@ -1,8 +1,10 @@
 package de.lhind.internship.mini.project.common.Guest;
 
+import de.lhind.internship.mini.project.common.DTOs.requests.GuestRequestDTO;
+import de.lhind.internship.mini.project.common.DTOs.responses.GuestResponseDTO;
 import de.lhind.internship.mini.project.common.GuestProfile.GuestProfileRepo;
-import de.lhind.internship.mini.project.exception.GuestExistsException;
-import de.lhind.internship.mini.project.exception.GuestNotFoundException;
+import de.lhind.internship.mini.project.common.exceptions.GuestExistsException;
+import de.lhind.internship.mini.project.common.exceptions.GuestNotFoundException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

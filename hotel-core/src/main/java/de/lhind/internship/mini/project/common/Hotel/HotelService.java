@@ -1,8 +1,10 @@
 package de.lhind.internship.mini.project.common.Hotel;
 
-import de.lhind.internship.mini.project.exception.AddressAlreadyOccupiedException;
-import de.lhind.internship.mini.project.exception.HotelAlreadyExistsException;
-import de.lhind.internship.mini.project.exception.HotelNotFoundException;
+import de.lhind.internship.mini.project.common.DTOs.requests.HotelRequestDTO;
+import de.lhind.internship.mini.project.common.DTOs.responses.HotelResponseDTO;
+import de.lhind.internship.mini.project.common.exceptions.AddressAlreadyOccupiedException;
+import de.lhind.internship.mini.project.common.exceptions.HotelAlreadyExistsException;
+import de.lhind.internship.mini.project.common.exceptions.HotelNotFoundException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package de.lhind.internship.mini.project.common.Room;
+package de.lhind.internship.mini.project.common.enums;
 
 public enum RoomType {
     STANDARD,
